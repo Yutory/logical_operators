@@ -50,3 +50,13 @@ second_n = input("second number:")
 sum =float(first_n) ** float(second_n)
 print(f"{first_n} ** {second_n} = {sum:.2f}")
 
+#floor divide
+print("Enter two numbers to divide:")
+#prompt a user for a number and save it
+first_n = input("first number:")
+#prompt a user for a number and save it
+second_n = input("second number:")
+sum =float(first_n) // float(first_n) 
+print(f"{first_n} // {second_n} = {sum:.2f}")
+
+
